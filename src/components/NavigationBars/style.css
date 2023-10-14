@@ -1,0 +1,198 @@
+.navigation-bars {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.navigation-bars .class-7 {
+  color: var(--main-colorspurple10) !important;
+}
+
+.navigation-bars .class-8 {
+  color: var(--main-colorsgray4) !important;
+}
+
+.navigation-bars .instance-node-2 {
+  flex: 0 0 auto !important;
+}
+
+.navigation-bars .frame {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 100px;
+  position: relative;
+}
+
+.navigation-bars .instance-node-3 {
+  height: 40px !important;
+  position: relative !important;
+  width: 40px !important;
+}
+
+.navigation-bars .frame-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.navigation-bars .vuesax-bold-moon-11 {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.navigation-bars.round {
+  border-radius: 25px;
+  overflow: hidden;
+  padding: 20px 100px;
+  width: 1400px;
+}
+
+.navigation-bars.color-purple-light {
+  background-color: var(--main-colorspurple05);
+}
+
+.navigation-bars.color-white {
+  background-color: var(--white);
+}
+
+.navigation-bars.color-purple {
+  background-color: var(--main-colorspurple4);
+}
+
+.navigation-bars.complete {
+  padding: 50px 100px 30px;
+  width: 1512px;
+}
+
+.navigation-bars.color-black {
+  background-color: var(--main-colorsgray5);
+}
+
+.navigation-bars.color-purple-dark {
+  background-color: var(--main-colorspurple95);
+}
+
+.navigation-bars.color-green-light {
+  background-color: var(--main-colorsgreen05);
+}
+
+.navigation-bars.rounded {
+  border-radius: 100px;
+  overflow: hidden;
+  padding: 20px 100px;
+  width: 1400px;
+}
+
+.navigation-bars.color-outline {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--main-colorsgray15);
+}
+
+.navigation-bars.color-purple-light.rounded {
+  box-shadow: var(--purple-0);
+}
+
+.navigation-bars.round.color-black {
+  box-shadow: var(--purple-0);
+}
+
+.navigation-bars.color-green-light.rounded {
+  box-shadow: var(--gray-0);
+}
+
+.navigation-bars.color-purple-dark.rounded {
+  box-shadow: var(--purple-0);
+}
+
+.navigation-bars.round.color-white {
+  box-shadow: var(--purple-0);
+}
+
+.navigation-bars.color-purple.round {
+  box-shadow: var(--purple-0);
+}
+
+.navigation-bars.color-purple-light.round {
+  box-shadow: var(--purple-0);
+}
+
+.navigation-bars.rounded.color-black {
+  box-shadow: var(--purple-0);
+}
+
+.navigation-bars.color-purple-dark.round {
+  box-shadow: var(--purple-0);
+}
+
+.navigation-bars.round.color-green-light {
+  box-shadow: var(--gray-0);
+}
+
+.navigation-bars.color-purple.rounded {
+  box-shadow: var(--purple-0);
+}
+
+.navigation-bars.rounded.color-white {
+  box-shadow: var(--purple-0);
+}
+
+.navigation-bars .distribution-right {
+  gap: 20px;
+}
+
+.navigation-bars .distribution-icon {
+  gap: 20px;
+}
+
+.navigation-bars .distribution-center {
+  gap: 20px;
+}
+
+.navigation-bars .distribution-left {
+  gap: 100px;
+}
+
+.navigation-bars.color-purple .frame {
+  justify-content: flex-end;
+}
+
+.navigation-bars.color-black .frame {
+  justify-content: flex-end;
+}
+
+.navigation-bars.color-outline .frame {
+  justify-content: flex-end;
+}
+
+.navigation-bars.color-green-light.complete .frame {
+  justify-content: flex-end;
+}
+
+.navigation-bars.color-green-light.rounded .frame {
+  justify-content: flex-end;
+}
+
+.navigation-bars.color-purple-dark.rounded .frame {
+  justify-content: flex-end;
+}
+
+.navigation-bars.color-purple-dark.round .frame {
+  justify-content: flex-end;
+}
+
+.navigation-bars.complete.color-white .frame {
+  justify-content: flex-end;
+}
+
+.navigation-bars.rounded.color-white .frame {
+  justify-content: flex-end;
+}
+
+.navigation-bars.color-purple-light.complete .frame {
+  justify-content: flex-end;
+}

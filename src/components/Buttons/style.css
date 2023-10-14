@@ -1,0 +1,785 @@
+.buttons {
+  all: unset;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: center;
+  position: relative;
+}
+
+.buttons .button {
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.buttons .class {
+  height: 14px !important;
+  margin-left: -8px !important;
+  margin-right: -4px !important;
+  position: relative !important;
+  width: 14px !important;
+}
+
+.buttons .class-2 {
+  height: 14px !important;
+  margin-left: -8px !important;
+  margin-right: -6px !important;
+  position: relative !important;
+  width: 14px !important;
+}
+
+.buttons .class-3 {
+  height: 14px !important;
+  margin-left: -8px !important;
+  margin-right: -8px !important;
+  position: relative !important;
+  width: 14px !important;
+}
+
+.buttons .class-4 {
+  height: 16px !important;
+  margin-left: -4px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.buttons .class-5 {
+  height: 16px !important;
+  margin-left: -4px !important;
+  margin-right: -2px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.buttons .class-6 {
+  height: 16px !important;
+  margin-left: -4px !important;
+  margin-right: -4px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.buttons .vuesax-linear-arrow {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.buttons.text-icon {
+  display: inline-flex;
+}
+
+.buttons.type-secondary {
+  border-radius: 4px;
+}
+
+.buttons.type-primary {
+  border-radius: 4px;
+}
+
+.buttons.state-focused {
+  border: 2px solid;
+  border-color: var(--main-colorspurple05);
+}
+
+.buttons.type-outliine {
+  border-radius: 4px;
+}
+
+.buttons.icon {
+  display: flex;
+  gap: 5px;
+  padding: 8px 16px;
+}
+
+.buttons.text {
+  display: inline-flex;
+}
+
+.buttons.type-text-only {
+  border-radius: 4px;
+}
+
+.buttons.type-negative {
+  border-radius: 4px;
+}
+
+.buttons.type-outliine.state-disabled {
+  background-color: var(--main-colorspurple05);
+  border: 1px solid;
+  border-color: var(--main-colorsgray15);
+}
+
+.buttons.text-icon.medium {
+  gap: 8px;
+  padding: 12px 20px 12px 24px;
+}
+
+.buttons.state-default.type-secondary {
+  background-color: var(--main-colorspurple1);
+}
+
+.buttons.state-pressed.text {
+  gap: 5px;
+}
+
+.buttons.state-hover.text {
+  gap: 5px;
+}
+
+.buttons.text-icon.large {
+  gap: 8px;
+  padding: 16px 24px 16px 32px;
+}
+
+.buttons.state-default.type-outliine {
+  background-color: var(--main-colorspurple1);
+  border: 1px solid;
+}
+
+.buttons.state-focused.type-outliine {
+  background-color: var(--main-colorspurple1);
+}
+
+.buttons.large.type-rounded {
+  border-radius: 52px;
+}
+
+.buttons.text.state-disabled {
+  gap: 10px;
+}
+
+.buttons.state-hover.type-outliine {
+  border: 1px solid;
+}
+
+.buttons.text.medium {
+  padding: 12px 24px;
+}
+
+.buttons.text.large {
+  padding: 16px 32px;
+}
+
+.buttons.state-pressed.type-outliine {
+  border: 1px solid;
+}
+
+.buttons.medium.type-rounded {
+  border-radius: 40px;
+}
+
+.buttons.text.state-default {
+  gap: 5px;
+}
+
+.buttons.small.type-rounded {
+  border-radius: 30px;
+}
+
+.buttons.state-focused.text {
+  gap: 5px;
+}
+
+.buttons.text.small {
+  padding: 8px 16px;
+}
+
+.buttons.state-focused.type-secondary {
+  background-color: var(--main-colorspurple1);
+}
+
+.buttons.small.text-icon {
+  gap: 4px;
+  padding: 8px 12px 8px 16px;
+}
+
+.buttons.state-disabled.type-negative.light {
+  background-color: var(--main-colorspurple05);
+}
+
+.buttons.state-pressed.icon.large {
+  height: 52px;
+  width: 52px;
+}
+
+.buttons.state-hover.type-outliine.light {
+  background-color: var(--main-colorspurple15);
+  border-color: var(--main-colorspurple6);
+}
+
+.buttons.state-focused.type-square.dark {
+  background-color: var(--main-colorsgray4);
+}
+
+.buttons.state-pressed.light.type-secondary {
+  background-color: var(--main-colorspurple1);
+}
+
+.buttons.state-hover.dark.type-negative {
+  background-color: var(--main-colorsgray2);
+}
+
+.buttons.dark.state-disabled.type-rounded {
+  background-color: var(--main-colorsgray0);
+}
+
+.buttons.state-hover.type-negative.light {
+  border: 1px solid;
+  border-color: var(--white);
+}
+
+.buttons.state-pressed.type-square.dark {
+  background-color: var(--main-colorspurple10);
+}
+
+.buttons.state-pressed.type-square.light {
+  background-color: var(--main-colorspurple7);
+}
+
+.buttons.state-focused.dark.type-primary {
+  background-color: var(--main-colorsgray4);
+}
+
+.buttons.state-default.type-negative.light {
+  background-color: var(--white);
+}
+
+.buttons.state-hover.icon.medium {
+  height: 40px;
+  width: 40px;
+}
+
+.buttons.light.state-disabled.type-secondary {
+  background-color: var(--main-colorspurple05);
+}
+
+.buttons.state-focused.light.type-primary {
+  background-color: var(--main-colorspurple5);
+}
+
+.buttons.state-default.type-outliine.light {
+  border-color: var(--main-colorspurple6);
+}
+
+.buttons.state-default.icon.medium {
+  height: 40px;
+  width: 40px;
+}
+
+.buttons.dark.state-default.type-outliine {
+  border-color: var(--main-colorsgray4);
+}
+
+.buttons.state-pressed.dark.type-rounded {
+  background-color: var(--main-colorspurple10);
+}
+
+.buttons.state-pressed.light.type-primary {
+  background-color: var(--main-colorspurple7);
+}
+
+.buttons.state-hover.dark.type-primary {
+  background-color: var(--main-colorsgray2);
+}
+
+.buttons.state-focused.icon.large {
+  height: 56px;
+  width: 56px;
+}
+
+.buttons.state-pressed.dark.type-primary {
+  background-color: var(--main-colorspurple10);
+}
+
+.buttons.light.state-default.type-rounded {
+  background-color: var(--main-colorspurple5);
+}
+
+.buttons.state-focused.dark.type-rounded {
+  background-color: var(--main-colorsgray4);
+}
+
+.buttons.state-hover.type-square.dark {
+  background-color: var(--main-colorsgray2);
+}
+
+.buttons.state-disabled.dark.type-negative {
+  background-color: var(--main-colorsgray0);
+}
+
+.buttons.state-pressed.type-negative.light {
+  background-color: var(--main-colorspurple6);
+}
+
+.buttons.state-hover.dark.type-secondary {
+  background-color: var(--main-colorspurple05);
+}
+
+.buttons.type-square.dark.state-default {
+  background-color: var(--main-colorsgray4);
+}
+
+.buttons.state-pressed.dark.type-secondary {
+  background-color: var(--main-colorsgray3);
+}
+
+.buttons.light.state-disabled.type-primary {
+  background-color: var(--main-colorspurple05);
+}
+
+.buttons.type-text-only.state-default.large {
+  overflow: hidden;
+}
+
+.buttons.state-pressed.type-outliine.light {
+  background-color: var(--main-colorspurple1);
+  border-color: var(--main-colorspurple85);
+}
+
+.buttons.state-hover.light.type-secondary {
+  background-color: var(--main-colorspurple15);
+}
+
+.buttons.type-square.state-default.light {
+  background-color: var(--main-colorspurple5);
+}
+
+.buttons.dark.state-disabled.type-primary {
+  background-color: var(--main-colorsgray0);
+}
+
+.buttons.light.state-disabled.type-rounded {
+  background-color: var(--main-colorspurple05);
+}
+
+.buttons.state-pressed.icon.medium {
+  height: 40px;
+  width: 40px;
+}
+
+.buttons.state-pressed.dark.type-outliine {
+  background-color: var(--main-colorsgray3);
+  border-color: var(--main-colorspurple1);
+}
+
+.buttons.light.state-default.type-primary {
+  background-color: var(--main-colorspurple5);
+}
+
+.buttons.state-hover.light.type-rounded {
+  background-color: var(--main-colorspurple4);
+}
+
+.buttons.state-focused.dark.type-negative {
+  background-color: var(--main-colorsgray4);
+}
+
+.buttons.dark.state-default.type-primary {
+  background-color: var(--main-colorsgray4);
+}
+
+.buttons.state-hover.dark.type-rounded {
+  background-color: var(--main-colorsgray2);
+}
+
+.buttons.dark.state-default.type-negative {
+  background-color: var(--main-colorspurple05);
+}
+
+.buttons.state-hover.dark.type-outliine {
+  background-color: var(--main-colorspurple05);
+  border-color: var(--main-colorspurple85);
+}
+
+.buttons.dark.state-disabled.type-secondary {
+  background-color: var(--main-colorsgray0);
+}
+
+.buttons.state-focused.small.icon {
+  width: 34px;
+}
+
+.buttons.state-pressed.light.type-rounded {
+  background-color: var(--main-colorspurple7);
+}
+
+.buttons.state-hover.icon.large {
+  height: 52px;
+  width: 52px;
+}
+
+.buttons.state-hover.light.type-primary {
+  background-color: var(--main-colorspurple4);
+}
+
+.buttons.state-focused.icon.medium {
+  height: 44px;
+  width: 44px;
+}
+
+.buttons.state-default.small.icon {
+  width: 30px;
+}
+
+.buttons.state-hover.small.icon {
+  width: 30px;
+}
+
+.buttons.state-pressed.dark.type-negative {
+  background-color: var(--main-colorspurple10);
+}
+
+.buttons.dark.state-default.type-rounded {
+  background-color: var(--main-colorsgray4);
+}
+
+.buttons.type-square.dark.state-disabled {
+  background-color: var(--main-colorsgray0);
+}
+
+.buttons.state-focused.type-negative.light {
+  background-color: var(--main-colorspurple4);
+}
+
+.buttons.state-focused.light.type-rounded {
+  background-color: var(--main-colorspurple5);
+}
+
+.buttons.type-square.state-disabled.light {
+  background-color: var(--main-colorspurple05);
+}
+
+.buttons.state-default.icon.large {
+  height: 52px;
+  width: 52px;
+}
+
+.buttons.state-pressed.small.icon {
+  width: 30px;
+}
+
+.buttons.state-hover.type-square.light {
+  background-color: var(--main-colorspurple4);
+}
+
+.buttons.state-focused.type-square.light {
+  background-color: var(--main-colorspurple5);
+}
+
+.buttons.medium.icon.type-negative.state-disabled {
+  height: 40px;
+  width: 40px;
+}
+
+.buttons.type-outliine.small.state-disabled.icon {
+  width: 32px;
+}
+
+.buttons.type-text-only.medium.icon.state-disabled {
+  height: 40px;
+  width: 40px;
+}
+
+.buttons.type-primary.small.state-disabled.icon {
+  width: 30px;
+}
+
+.buttons.type-text-only.large.icon.state-disabled {
+  height: 52px;
+  width: 52px;
+}
+
+.buttons.large.icon.type-negative.state-disabled {
+  height: 52px;
+  width: 52px;
+}
+
+.buttons.large.icon.state-disabled.type-secondary {
+  height: 52px;
+  width: 52px;
+}
+
+.buttons.large.icon.state-disabled.type-rounded {
+  height: 52px;
+  width: 52px;
+}
+
+.buttons.type-square.small.state-disabled.icon {
+  width: 30px;
+}
+
+.buttons.large.type-square.icon.state-disabled {
+  height: 52px;
+  width: 52px;
+}
+
+.buttons.type-rounded.small.state-disabled.icon {
+  width: 30px;
+}
+
+.buttons.medium.icon.state-disabled.type-primary {
+  height: 40px;
+  width: 40px;
+}
+
+.buttons.small.type-secondary.state-disabled.icon {
+  width: 30px;
+}
+
+.buttons.large.icon.state-disabled.type-primary {
+  height: 52px;
+  width: 52px;
+}
+
+.buttons.medium.icon.state-disabled.type-secondary {
+  height: 40px;
+  width: 40px;
+}
+
+.buttons.type-text-only.small.state-disabled.icon {
+  width: 30px;
+}
+
+.buttons.state-disabled.small.type-negative.icon {
+  width: 30px;
+}
+
+.buttons.medium.type-square.icon.state-disabled {
+  height: 40px;
+  width: 40px;
+}
+
+.buttons.medium.type-outliine.icon.state-disabled {
+  height: 42px;
+  width: 42px;
+}
+
+.buttons.medium.icon.state-disabled.type-rounded {
+  height: 40px;
+  width: 40px;
+}
+
+.buttons.large.type-outliine.icon.state-disabled {
+  height: 54px;
+  width: 54px;
+}
+
+.buttons.large .button {
+  font-family: var(--h4-gotham-book-active-left-font-family);
+  font-size: var(--h4-gotham-book-active-left-font-size);
+  font-style: var(--h4-gotham-book-active-left-font-style);
+  font-weight: var(--h4-gotham-book-active-left-font-weight);
+  letter-spacing: var(--h4-gotham-book-active-left-letter-spacing);
+  line-height: var(--h4-gotham-book-active-left-line-height);
+}
+
+.buttons.state-pressed .button {
+  margin-top: -1px;
+}
+
+.buttons.small .button {
+  font-family: var(--p1-gotham-book-active-left-font-family);
+  font-size: var(--p1-gotham-book-active-left-font-size);
+  font-style: var(--p1-gotham-book-active-left-font-style);
+  font-weight: var(--p1-gotham-book-active-left-font-weight);
+  letter-spacing: var(--p1-gotham-book-active-left-letter-spacing);
+  line-height: var(--p1-gotham-book-active-left-line-height);
+}
+
+.buttons.state-hover .button {
+  margin-top: -1px;
+}
+
+.buttons.medium .button {
+  font-family: var(--p3-gotham-book-active-left-font-family);
+  font-size: var(--p3-gotham-book-active-left-font-size);
+  font-style: var(--p3-gotham-book-active-left-font-style);
+  font-weight: var(--p3-gotham-book-active-left-font-weight);
+  letter-spacing: var(--p3-gotham-book-active-left-letter-spacing);
+  line-height: var(--p3-gotham-book-active-left-line-height);
+}
+
+.buttons.state-default .button {
+  margin-top: -1px;
+}
+
+.buttons.type-outliine.state-disabled .button {
+  color: var(--main-colorsgray15);
+}
+
+.buttons.dark.type-primary .button {
+  color: var(--white);
+}
+
+.buttons.state-hover.type-negative .button {
+  color: var(--white);
+}
+
+.buttons.type-text-only.state-pressed .button {
+  color: var(--main-colorspurple85);
+}
+
+.buttons.type-text-only.state-hover .button {
+  color: var(--main-colorspurple6);
+}
+
+.buttons.state-hover.type-rounded .button {
+  color: var(--white);
+}
+
+.buttons.type-square.dark .button {
+  color: var(--white);
+}
+
+.buttons.state-focused.type-negative .button {
+  color: var(--white);
+}
+
+.buttons.state-hover.type-square .button {
+  color: var(--white);
+}
+
+.buttons.state-default.type-rounded .button {
+  color: var(--white);
+}
+
+.buttons.state-hover.type-primary .button {
+  color: var(--white);
+}
+
+.buttons.state-pressed.type-rounded .button {
+  color: var(--white);
+}
+
+.buttons.type-text-only.state-disabled .button {
+  color: var(--main-colorsgray15);
+}
+
+.buttons.state-focused.type-square .button {
+  color: var(--white);
+}
+
+.buttons.state-pressed.type-square .button {
+  color: var(--white);
+}
+
+.buttons.state-default.type-primary .button {
+  color: var(--white);
+}
+
+.buttons.state-focused.type-rounded .button {
+  color: var(--white);
+}
+
+.buttons.state-focused.type-primary .button {
+  color: var(--white);
+}
+
+.buttons.type-square.state-default .button {
+  color: var(--white);
+}
+
+.buttons.state-pressed.type-negative .button {
+  color: var(--white);
+}
+
+.buttons.state-disabled.light .button {
+  color: var(--main-colorsgray15);
+}
+
+.buttons.type-text-only.state-focused .button {
+  color: var(--main-colorspurple6);
+}
+
+.buttons.dark.type-rounded .button {
+  color: var(--white);
+}
+
+.buttons.state-pressed.type-primary .button {
+  color: var(--white);
+}
+
+.buttons.type-text-only.state-default .button {
+  color: var(--main-colorspurple6);
+}
+
+.buttons.state-pressed.dark.type-outliine .button {
+  color: var(--main-colorspurple1);
+}
+
+.buttons.state-hover.type-outliine.light .button {
+  color: var(--main-colorspurple6);
+}
+
+.buttons.state-pressed.light.type-secondary .button {
+  color: var(--main-colorspurple85);
+}
+
+.buttons.state-focused.dark.type-secondary .button {
+  color: var(--main-colorspurple10);
+}
+
+.buttons.light.state-default.type-secondary .button {
+  color: var(--main-colorspurple6);
+}
+
+.buttons.dark.state-default.type-negative .button {
+  color: var(--main-colorsgray4);
+}
+
+.buttons.state-hover.dark.type-outliine .button {
+  color: var(--main-colorspurple85);
+}
+
+.buttons.dark.state-disabled.type-secondary .button {
+  color: var(--white);
+}
+
+.buttons.state-focused.dark.type-outliine .button {
+  color: var(--main-colorspurple10);
+}
+
+.buttons.state-focused.type-outliine.light .button {
+  color: var(--main-colorspurple6);
+}
+
+.buttons.state-disabled.dark.type-negative .button {
+  color: var(--white);
+}
+
+.buttons.state-default.type-negative.light .button {
+  color: var(--main-colorspurple10);
+}
+
+.buttons.state-hover.dark.type-secondary .button {
+  color: var(--main-colorspurple85);
+}
+
+.buttons.dark.state-default.type-outliine .button {
+  color: var(--main-colorsgray4);
+}
+
+.buttons.state-pressed.dark.type-secondary .button {
+  color: var(--white);
+}
+
+.buttons.state-focused.light.type-secondary .button {
+  color: var(--main-colorspurple6);
+}
+
+.buttons.state-default.type-outliine.light .button {
+  color: var(--main-colorspurple6);
+}
+
+.buttons.state-pressed.type-outliine.light .button {
+  color: var(--main-colorspurple85);
+}
+
+.buttons.state-hover.light.type-secondary .button {
+  color: var(--main-colorspurple6);
+}
+
+.buttons.dark.state-default.type-secondary .button {
+  color: var(--main-colorsgray4);
+}

@@ -1,0 +1,21 @@
+.options {
+  align-items: center;
+  display: inline-flex;
+  gap: 30px;
+  justify-content: center;
+  position: relative;
+}
+
+.options .div {
+  color: var(--white);
+  font-family: var(--h4-gotham-book-active-left-font-family);
+  font-size: var(--h4-gotham-book-active-left-font-size);
+  font-style: var(--h4-gotham-book-active-left-font-style);
+  font-weight: var(--h4-gotham-book-active-left-font-weight);
+  letter-spacing: var(--h4-gotham-book-active-left-letter-spacing);
+  line-height: var(--h4-gotham-book-active-left-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

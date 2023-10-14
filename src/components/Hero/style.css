@@ -1,0 +1,132 @@
+.hero {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  position: relative;
+  width: 1728px;
+}
+
+.hero .navigation-bars-instance {
+  align-self: stretch !important;
+  background-color: unset !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.hero .frame-3 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 19px;
+  padding: 0px 100px;
+  position: relative;
+  width: 100%;
+}
+
+.hero .frame-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.hero .title {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 70px;
+  position: relative;
+}
+
+.hero .frame-5 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 18px;
+  position: relative;
+}
+
+.hero .PRODUCT-DESIGNER {
+  font-family: "Anton", Helvetica;
+  font-size: 200px;
+  font-weight: 400;
+  letter-spacing: -6px;
+  line-height: 180px;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.hero .text-wrapper-4 {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(250, 112, 154) 0%, rgb(254, 225, 64) 100%);
+  background-clip: text;
+  color: transparent;
+  font-family: "Anton", Helvetica;
+  font-size: 114px;
+  font-weight: 400;
+  letter-spacing: -3.42px;
+  line-height: 102.6px;
+  position: relative;
+  text-fill-color: transparent;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.hero .frame-6 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+  width: 100%;
+}
+
+.hero .instance-node-4 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  position: relative !important;
+  width: 100% !important;
+}
+
+.hero .buttons-instance {
+  align-self: stretch !important;
+  display: flex !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.hero .portal {
+  height: 160px;
+  position: relative;
+  width: 160px;
+}
+
+.hero .icon-instance-node {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.hero.mode-6-dark {
+  background-color: var(--main-colorsgray10);
+}
+
+.hero.mode-6-light {
+  background-color: var(--white);
+}
+
+.hero.mode-6-dark .PRODUCT-DESIGNER {
+  color: var(--white);
+}
+
+.hero.mode-6-light .PRODUCT-DESIGNER {
+  color: var(--main-colorsgray4);
+}

@@ -1,0 +1,1 @@
+export { VuesaxBoldMoon } from "./VuesaxBoldMoon";

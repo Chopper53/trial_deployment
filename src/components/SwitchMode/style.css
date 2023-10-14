@@ -1,0 +1,376 @@
+.switch-mode {
+  align-items: center;
+  position: relative;
+}
+
+.switch-mode .ellipse {
+  border-radius: 12px;
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.switch-mode .instance-node {
+  height: 20px !important;
+  left: 2px !important;
+  position: absolute !important;
+  top: 2px !important;
+  width: 20px !important;
+}
+
+.switch-mode .vuesax-bold-moon {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.switch-mode .vuesax-bold-moon-20 {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.switch-mode .circle {
+  border-radius: 12px;
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.switch-mode .text-wrapper-2 {
+  font-family: "Gotham-Book", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  line-height: 20px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.switch-mode .ellipse-wrapper {
+  align-items: center;
+  border-radius: 32px;
+  display: flex;
+  gap: 20px;
+  padding: 4px;
+  position: relative;
+}
+
+.switch-mode .ellipse-2 {
+  border-radius: 12px;
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.switch-mode .text-wrapper-3 {
+  font-family: "Gotham-Book", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  line-height: 20px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.switch-mode.inner-icon-on {
+  gap: 4px;
+}
+
+.switch-mode.style-0-hover {
+  width: 56px;
+}
+
+.switch-mode.ouside-icons-on {
+  background-color: var(--complementary-colorsyellow4);
+  display: inline-flex;
+  width: 56px;
+}
+
+.switch-mode.style-0-disabled {
+  width: 56px;
+}
+
+.switch-mode.label-on {
+  background-color: var(--complementary-colorsyellow4);
+  display: inline-flex;
+  width: 56px;
+}
+
+.switch-mode.style-0-default {
+  width: 56px;
+}
+
+.switch-mode.style-0-default.mode-light {
+  background-color: var(--complementary-colorsyellow4);
+}
+
+.switch-mode.style-0-border.mode-light {
+  background-color: var(--complementary-colorsyellow4);
+}
+
+.switch-mode.icon-on.style-0-default {
+  gap: 4px;
+}
+
+.switch-mode.ouside-icons-off.label-off {
+  border-radius: 32px;
+  display: flex;
+  padding: 4px;
+}
+
+.switch-mode.inner-icon-off.ouside-icons-on.icon-off {
+  gap: 8px;
+}
+
+.switch-mode.ouside-icons-off.label-off.style-0-border {
+  border: 4px solid;
+  width: 64px;
+}
+
+.switch-mode.label-on.style-0-border.inner-icon-off {
+  gap: 8px;
+}
+
+.switch-mode.mode-dark.label-off.ouside-icons-off {
+  justify-content: flex-end;
+}
+
+.switch-mode.style-0-border.inner-icon-off.ouside-icons-on {
+  gap: 8px;
+}
+
+.switch-mode.ouside-icons-off.label-off.style-0-disabled {
+  background-color: var(--main-colorsgray0);
+}
+
+.switch-mode.label-on.inner-icon-off.icon-off {
+  gap: 8px;
+}
+
+.switch-mode.style-0-hover.inner-icon-off.ouside-icons-on {
+  gap: 8px;
+}
+
+.switch-mode.label-on.inner-icon-off.style-0-disabled {
+  gap: 8px;
+}
+
+.switch-mode.inner-icon-off.ouside-icons-on.style-0-disabled {
+  gap: 8px;
+}
+
+.switch-mode.label-on.style-0-hover.inner-icon-off {
+  gap: 8px;
+}
+
+.switch-mode.ouside-icons-off.label-off.inner-icon-off.style-0-disabled {
+  gap: 20px;
+}
+
+.switch-mode.mode-dark.label-off.style-0-hover.ouside-icons-off {
+  background-color: var(--main-colorspurple95);
+}
+
+.switch-mode.ouside-icons-off.label-off.inner-icon-off.style-0-hover {
+  gap: 20px;
+}
+
+.switch-mode.ouside-icons-off.label-off.inner-icon-off.style-0-border {
+  gap: 20px;
+}
+
+.switch-mode.mode-dark.label-off.style-0-border.ouside-icons-off {
+  background-color: var(--complementary-colorsblue95);
+  border-color: var(--complementary-colorsblue1);
+}
+
+.switch-mode.ouside-icons-off.label-off.inner-icon-off.icon-off {
+  gap: 20px;
+}
+
+.switch-mode.ouside-icons-off.label-off.style-0-hover.mode-light {
+  background-color: var(--complementary-colorsyellow2);
+}
+
+.switch-mode.mode-light.ouside-icons-off.label-off.style-0-border {
+  border-color: var(--complementary-colorsyellow2);
+}
+
+.switch-mode.mode-dark.label-off.style-0-default.ouside-icons-off {
+  background-color: var(--complementary-colorsblue95);
+}
+
+.switch-mode.icon-on .ellipse {
+  overflow: hidden;
+}
+
+.switch-mode.style-0-disabled .ellipse {
+  background-color: var(--white);
+}
+
+.switch-mode.style-0-border.mode-light .ellipse {
+  background-color: var(--complementary-colorsyellow05);
+}
+
+.switch-mode.style-0-default.mode-light .ellipse {
+  background-color: var(--complementary-colorsyellow05);
+}
+
+.switch-mode.style-0-hover.mode-light .ellipse {
+  background-color: var(--complementary-colorsyellow05);
+}
+
+.switch-mode.mode-dark.icon-off .ellipse {
+  background-color: var(--white);
+}
+
+.switch-mode.icon-on.mode-dark.style-0-border .ellipse {
+  background-color: var(--complementary-colorsblue3);
+}
+
+.switch-mode.icon-on.mode-dark.style-0-hover .ellipse {
+  background-color: var(--main-colorspurple4);
+}
+
+.switch-mode.icon-on.mode-dark.style-0-default .ellipse {
+  background-color: var(--complementary-colorsblue3);
+}
+
+.switch-mode.mode-dark .circle {
+  background-color: var(--white);
+}
+
+.switch-mode.style-0-disabled .circle {
+  background-color: var(--white);
+}
+
+.switch-mode.style-0-hover.mode-light .circle {
+  background-color: var(--complementary-colorsyellow05);
+}
+
+.switch-mode.style-0-border.mode-light .circle {
+  background-color: var(--complementary-colorsyellow05);
+}
+
+.switch-mode.style-0-default.mode-light .circle {
+  background-color: var(--complementary-colorsyellow05);
+}
+
+.switch-mode.mode-dark .text-wrapper-2 {
+  color: var(--main-colorsgray-1);
+}
+
+.switch-mode.style-0-hover.mode-light .text-wrapper-2 {
+  color: var(--main-colorsgray4);
+}
+
+.switch-mode.style-0-border.mode-light .text-wrapper-2 {
+  color: var(--main-colorsgray4);
+}
+
+.switch-mode.style-0-default.mode-light .text-wrapper-2 {
+  color: var(--main-colorsgray4);
+}
+
+.switch-mode.mode-light.style-0-disabled .text-wrapper-2 {
+  color: var(--main-colorsgray0);
+}
+
+.switch-mode.style-0-border .ellipse-wrapper {
+  border: 4px solid;
+  margin-bottom: -4px;
+  margin-top: -4px;
+  width: 64px;
+}
+
+.switch-mode.style-0-hover .ellipse-wrapper {
+  border-color: var(--complementary-colorsyellow2);
+  width: 56px;
+}
+
+.switch-mode.mode-dark .ellipse-wrapper {
+  justify-content: flex-end;
+}
+
+.switch-mode.style-0-disabled .ellipse-wrapper {
+  background-color: var(--main-colorsgray0);
+  border-color: var(--complementary-colorsyellow2);
+  width: 56px;
+}
+
+.switch-mode.mode-light .ellipse-wrapper {
+  border-color: var(--complementary-colorsyellow2);
+}
+
+.switch-mode.style-0-default .ellipse-wrapper {
+  border-color: var(--complementary-colorsyellow2);
+  width: 56px;
+}
+
+.switch-mode.mode-dark.style-0-hover .ellipse-wrapper {
+  background-color: var(--complementary-colorsblue95);
+}
+
+.switch-mode.style-0-hover.mode-light .ellipse-wrapper {
+  background-color: var(--complementary-colorsyellow2);
+}
+
+.switch-mode.style-0-border.mode-light .ellipse-wrapper {
+  background-color: var(--complementary-colorsyellow4);
+}
+
+.switch-mode.style-0-default.mode-light .ellipse-wrapper {
+  background-color: var(--complementary-colorsyellow4);
+}
+
+.switch-mode.mode-dark.style-0-default .ellipse-wrapper {
+  background-color: var(--complementary-colorsblue95);
+}
+
+.switch-mode.mode-dark.style-0-border .ellipse-wrapper {
+  background-color: var(--complementary-colorsblue95);
+  border-color: var(--complementary-colorsblue1);
+}
+
+.switch-mode.style-0-border .ellipse-2 {
+  background-color: var(--white);
+}
+
+.switch-mode.style-0-hover .ellipse-2 {
+  background-color: var(--white);
+}
+
+.switch-mode.mode-dark .ellipse-2 {
+  background-color: var(--white);
+}
+
+.switch-mode.style-0-disabled .ellipse-2 {
+  background-color: var(--white);
+}
+
+.switch-mode.style-0-default.mode-light .ellipse-2 {
+  background-color: var(--complementary-colorsyellow05);
+}
+
+.switch-mode.mode-light .text-wrapper-3 {
+  color: var(--main-colorsgray-1);
+}
+
+.switch-mode.mode-dark.style-0-hover .text-wrapper-3 {
+  color: var(--main-colorsgray4);
+}
+
+.switch-mode.mode-dark.style-0-disabled .text-wrapper-3 {
+  color: var(--main-colorsgray0);
+}
+
+.switch-mode.mode-dark.style-0-default .text-wrapper-3 {
+  color: var(--main-colorsgray4);
+}
+
+.switch-mode.mode-dark.style-0-border .text-wrapper-3 {
+  color: var(--main-colorsgray4);
+}

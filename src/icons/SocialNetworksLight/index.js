@@ -1,0 +1,1 @@
+export { SocialNetworksLight } from "./SocialNetworksLight";

@@ -1,0 +1,1 @@
+export { Escultures } from "./Escultures";

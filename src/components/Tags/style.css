@@ -1,0 +1,114 @@
+.tags {
+  align-items: center;
+  border-radius: 12px;
+  display: inline-flex;
+  height: 24px;
+  justify-content: center;
+  position: relative;
+}
+
+.tags .vuesax-bold-close {
+  height: 18px !important;
+  margin-bottom: -1px !important;
+  margin-top: -1px !important;
+  position: relative !important;
+  width: 18px !important;
+}
+
+.tags .label {
+  font-family: var(--p1-gotham-book-active-left-font-family);
+  font-size: var(--p1-gotham-book-active-left-font-size);
+  font-style: var(--p1-gotham-book-active-left-font-style);
+  font-weight: var(--p1-gotham-book-active-left-font-weight);
+  letter-spacing: var(--p1-gotham-book-active-left-letter-spacing);
+  line-height: var(--p1-gotham-book-active-left-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tags.on {
+  border: 1px solid;
+}
+
+.tags.on {
+  gap: 2px;
+  padding: 4px 8px 4px 6px;
+}
+
+.tags.success {
+  background-color: var(--main-colorsgreen05);
+}
+
+.tags.info {
+  background-color: var(--complementary-colorsblue05);
+}
+
+.tags.warning {
+  background-color: var(--complementary-colorsyellow05);
+}
+
+.tags.danger {
+  background-color: var(--complementary-colorsred05);
+}
+
+.tags.primary {
+  background-color: var(--main-colorspurple1);
+}
+
+.tags.off {
+  gap: 5px;
+  padding: 4px 8px;
+}
+
+.tags.disabled {
+  background-color: var(--main-colorsgray-1);
+}
+
+.tags.on.danger {
+  border-color: var(--complementary-colorsred6);
+}
+
+.tags.on.success {
+  border-color: var(--main-colorsgreen6);
+}
+
+.tags.primary.on {
+  border-color: var(--main-colorspurple3);
+}
+
+.tags.on.warning {
+  border-color: var(--complementary-colorsyellow5);
+}
+
+.tags.on.disabled {
+  border-color: var(--main-colorsgray0);
+}
+
+.tags.on.info {
+  border-color: var(--complementary-colorsblue4);
+}
+
+.tags.success .label {
+  color: var(--main-colorsgreen95);
+}
+
+.tags.info .label {
+  color: var(--complementary-colorsblue8);
+}
+
+.tags.warning .label {
+  color: var(--complementary-colorsyellow7);
+}
+
+.tags.danger .label {
+  color: var(--complementary-colorsred85);
+}
+
+.tags.primary .label {
+  color: var(--main-colorspurple6);
+}
+
+.tags.disabled .label {
+  color: var(--main-colorsgray3);
+}
